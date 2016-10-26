@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2665CEAF1DC0D69C0071029D /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2665CEAE1DC0D69C0071029D /* ModalViewController.swift */; };
 		26BDFD011DC01CAE00455A99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BDFD001DC01CAE00455A99 /* AppDelegate.swift */; };
 		26BDFD031DC01CAE00455A99 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BDFD021DC01CAE00455A99 /* FirstViewController.swift */; };
 		26BDFD051DC01CAE00455A99 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BDFD041DC01CAE00455A99 /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2665CEAE1DC0D69C0071029D /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		26BDFCFD1DC01CAE00455A99 /* Calorie Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calorie Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BDFD001DC01CAE00455A99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26BDFD021DC01CAE00455A99 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				26BDFD001DC01CAE00455A99 /* AppDelegate.swift */,
 				26BDFD021DC01CAE00455A99 /* FirstViewController.swift */,
 				26BDFD041DC01CAE00455A99 /* SecondViewController.swift */,
+				2665CEAE1DC0D69C0071029D /* ModalViewController.swift */,
 				26BDFD061DC01CAE00455A99 /* Main.storyboard */,
 				26BDFD091DC01CAE00455A99 /* Assets.xcassets */,
 				26BDFD0B1DC01CAE00455A99 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2665CEAF1DC0D69C0071029D /* ModalViewController.swift in Sources */,
 				26BDFD051DC01CAE00455A99 /* SecondViewController.swift in Sources */,
 				26BDFD011DC01CAE00455A99 /* AppDelegate.swift in Sources */,
 				26BDFD031DC01CAE00455A99 /* FirstViewController.swift in Sources */,
@@ -306,6 +310,7 @@
 				26BDFD131DC01CAE00455A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
